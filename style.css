@@ -1,0 +1,209 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #9D8080;
+}
+
+.logo {
+    width: 50px; 
+    display: flex;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.nav a {
+    color: #584B3E;
+    text-decoration: none;
+    padding: 10px;
+}
+
+.primeira {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    background: url('imagens/hero.png') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+}
+
+.primeira h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.primeira p {
+    font-size: 1.5em;
+    margin-bottom: 30px;
+}
+
+.botao {
+    background-color: white;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 2px;
+
+}
+
+.conheca{
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    padding: 150px 20px;
+    background-color: white;
+}
+
+.conheca-filho{
+    max-width: 800px;
+}
+
+.conheca h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.conheca p {
+    font-size: 1.2em;
+    color: black;
+}
+
+.secao-fotos{
+    padding: 20px;
+    background-color: #C3C63B;
+    display: flex;
+    justify-content: center;
+}
+
+.imagens{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+.imagens img{
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 2px;
+}
+
+.container-extras{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.extras-grid{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.extras{
+    text-align: center;
+    padding: 60px 20px;
+    background-color: #191C03;
+}
+
+.extras h1,p{
+    color: white;
+}
+
+.central-hr{
+    width: 320px;
+    margin: 0 auto 40px;
+    border: 2px solid white;
+}
+
+.grid-extra{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+
+.extras-items{
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.extras-items h3{
+    color: #C3C63B;
+}
+
+.newslatter-section{
+    padding: 50px 20px;
+}
+
+.newslatter-section h1{
+    text-align: center;
+    color: #C3C63B;
+    padding: 40px 20px;
+    font-size: 3em;
+}
+
+.newslatter-section p{
+    padding: 40px 20px;
+    text-align: center;
+    color: #C3C63B;
+}
+
+.linha-newslatter{
+    border: none;
+    border-top: 2px solid #C3C63B;
+    width: 25%;
+    margin: 20px auto;
+}
+
+.email-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.colocar-email{
+    text-align: center;
+    width: 45%;
+    height:30px;    
+    border: 2px solid #C3C63B;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.botao-cadastrar{
+    width: 10%;
+    height:30px;
+    text-align: center;
+    background-color: #C3C63B;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #393F06;
+    padding: 5px;
+}
+
+footer p{
+    color: #B0AD18;
+}
